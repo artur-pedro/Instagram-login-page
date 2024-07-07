@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: fafafa;
+    margin-top: 13px;
+}
+
+header {
+    display: flex;
+    border-bottom: 1px solid #dbdbdb;
+    width: 100%;
+    height: 50px;
+}
+#instagram-art {
+    height: 30px;
+    width: 110px;
+    margin: 10px 0px auto 300px;
+}
+#forgotpass-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    border: 1px solid #dbdbdb;
+    width: 450px;
+    height: 600px;
+    margin: 70px auto 0px auto ;
+}
+#lock {
+    display: flex;
+    width: 30%;
+    margin: 5px auto 0 auto;
+
+}
+#text {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+#text2 {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 15px;
+    text-align: center;
+    color: #737373;
+}
+#main-form input {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    padding: 12px 9px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    width: 330px;
+    margin: 2px auto;
+    margin-bottom: 5px;
+    outline: none;
+}
+#submit {
+    text-align: center;
+    background-color: #4CB5F9;
+    border-radius: 10px;
+    height: 35px;
+    width: 75%;
+    font-size: 13px;
+    font-weight: bold;
+    /* centralizar */
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    margin: 20px auto 15px;
+    text-decoration: none;
+    color: white;
+}
+#submit2 {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #00376B;
+}
+
+.separator {
+    position: relative;
+}
+
+.line {
+    border-top: 1px solid #dbdbdb;
+    width: 300px;
+    margin: 25px auto 35px;
+}
+
+.separator span {
+    /* para arrumar */
+    display: inline-block; 
+    position: relative;
+    text-transform: uppercase;
+    color: #bbb;
+    background-color: #fff;
+    top: -43px;
+    margin-left: 201px;
+    font-size: 14px;
+    padding: 0px 10px 0px 10px;
+    padding-bottom: 0px;
+}
+#make-account {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: -23px;
+    color: #5b5959;
+    font-weight: bolder;
+}
+#login-back {
+    display: flex;
+    justify-content: center;
+    text-decoration: 0px;
+    margin-top: 120px;
+    font-size: 15px;
+    color: black;
+    border: 1px solid #dbdbdb;
+    height: 70px;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+footer {
+    text-align: left;
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+footer #footer-links {
+    display: flex;
+    list-style: none;
+    
+}
+#footer-links li {
+    margin-right: 10px;
+}
+#footer-links a,
+#copyright {
+    text-decoration: none;
+    color: #8e8e8e;
+    font-size: 14px;
+}
+
+#copyright {
+    margin-top: 10px;
+    margin: 0; 
+}
+.header-extreme {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+#language-form {
+    margin: 15px 0;
+}
+#language {
+    color: #8e8e8e;
+    font-size: 12px;
+    margin: auto 5px;
+}
+#language label {
+    display: none;
+}
+#language select{
+    border: none;
+    /* remover borda preta */
+    outline: none;
+}
+#langauge option.active {
+    border-radius: 0;
+}
+@media (max-width: 800px) {
+    footer {
+        width: 90%;
+    }
+    #footer-links {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    #footer-links {
+        margin-bottom: 10px;
+    }
+    #instagram-art {
+        margin: auto 20px;
+    }
+    
+}

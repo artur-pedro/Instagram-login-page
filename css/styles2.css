@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: fafafa;
+    margin-top: 13px;
+}
+
+#instagram-art {
+    height: 51px;
+    width: 175px;
+    margin: 20px auto 12px;
+}
+
+#texto {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+    color: #737373;
+}
+#main-container-2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    padding: 0px 10px ;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 1px;
+    width: 350px;
+    height: 630px;
+    margin: 5px auto;
+}
+#facebook-login {
+    text-align: center;
+    background-color: #1877F2;
+    border-radius: 10px;
+    height: 35px;
+    width: 80%;
+    font-size: 13px;
+    font-weight: bold;
+    /* centralizar */
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    margin: 20px auto 15px;
+}
+#facebook-login a {
+    text-decoration: none;
+    color: white;
+}
+#facebook-login img {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    margin-right: 10px;
+}
+.separator {
+    position: relative;
+    width: 100%; 
+    text-align: center; 
+}
+
+.line {
+    border-top: 1px solid #dbdbdb;
+    width: 268px;
+    margin: 25px auto -30px;
+}
+
+.separator span {
+    display: inline-block;
+    text-transform: uppercase;
+    color: #737373;
+    background-color: #fff;
+    position: relative;
+    padding: 10px;
+    top: 12px;
+    font-size: 14px;
+    font-weight: 360px;
+}
+#instagram-cadastrar {
+   margin-top: 20px; 
+}
+#instagram-cadastrar input {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    padding: 12px 9px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    width: 268px;
+    margin: 2px auto;
+    margin-bottom: 5px;
+}
+#instagram-cadastrar p {
+    margin-top: 20px;
+    text-align: center;
+    color: #737373;
+}
+#instagram-cadastrar a {
+    text-decoration: none;
+}
+#cadastre-se {
+    text-align: center;
+    background-color: #4CB5F9;
+    border-radius: 10px;
+    height: 35px;
+    width: 80%;
+    font-size: 13px;
+    font-weight: bold;
+    /* centralizar */
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    margin: 20px auto 15px;
+    
+}
+#cadastre-se a {
+    text-decoration: none;
+    color: white;
+   
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    padding: 0px 10px ;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    width: 360px;
+    height: 70px;
+    margin: 15px auto;
+}
+.login-form  p {
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    margin: 25px auto;
+    font-size: 15px;
+}
+.login-form a {
+    text-decoration: none;
+    color: #4CB5F9;
+    font-weight: bold;
+}
+.get-app-container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.get-app-container p {
+
+    font-size: 13px;
+}
+
+.get-app-container a {
+    text-decoration: none;
+    margin-bottom: -10;
+}
+.get-app-container img {
+    width: 136px;
+    height: 50px;
+}
+.app-links {
+    display: flex;
+}
+.app-links a {
+    margin: 0 5px;
+}
+footer {
+    text-align: left;
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer #footer-links {
+    display: flex;
+    list-style: none;
+    
+}
+#footer-links li {
+    margin-right: 10px;
+}
+#footer-links a,
+#copyright {
+    text-decoration: none;
+    color: #8e8e8e;
+    font-size: 12px;
+}
+
+#copyright {
+    margin-top: 10px;
+    margin: 0; 
+}
+.header-extreme {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    
+}
+#language-form {
+    margin: 15px 0;
+}
+#language {
+    color: #8e8e8e;
+    font-size: 12px;
+    margin: auto 5px;
+}
+#language label {
+    display: none;
+}
+#language select{
+    border: none;
+    /* remover borda preta */
+    outline: none;
+}
+#langauge option.active {
+    border-radius: 0;
+}
+@media (max-width: 800px) {
+    footer {
+        width: 90%;
+    }
+    #footer-links {
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    #footer-links {
+        margin-bottom: 10px;
+    }
+    
+}
